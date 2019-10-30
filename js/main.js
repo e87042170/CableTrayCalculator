@@ -46,11 +46,11 @@ $(document).ready(function(){
 		var cOD=odArr[$('#sel2 :selected').index()];
 		var str='<tr>'+
 		        '<td>'+listCount+'</td>'+
-		        '<td><input type="text" class="form-control" value="'+cType+'"></td>'+
-		        '<td><input type="text" class="form-control" value="'+cSpec+'"></td>'+
-		        '<td><input type="text" class="form-control" value="'+cOD+'"></td>'+
-		        '<td><input type="text" class="form-control" value="0"></td>'+
-		        '<td><button class="btn btn-default btn-outline-danger"> <i class="fa fa-close"></i> Delete</button></td>'+
+		        '<td>'+cType+'</td>'+
+		        '<td>'+cSpec+'</td>'+
+		        '<td><input type="text" class="form-control form-control-sm" value="'+cOD+'"></td>'+
+		        '<td><input type="text" class="form-control form-control-sm" value="0"></td>'+
+		        '<td><button class="btn btn-default btn-outline-danger"> <i class="fa fa-close"></i><span> Delete</span></button></td>'+
 		        '</tr>';
 		$('#tbl1 tbody').append(str);
 	});

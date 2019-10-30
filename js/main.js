@@ -50,7 +50,7 @@ $(document).ready(function(){
 		        '<td>'+cSpec+'</td>'+
 		        '<td><input type="text" class="form-control form-control-sm" value="'+cOD+'"></td>'+
 		        '<td><input type="text" class="form-control form-control-sm" value="0"></td>'+
-		        '<td><button class="btn btn-default btn-outline-danger"> <i class="fas fa-close"></i><span> Delete</span></button></td>'+
+		        '<td><button class="btn btn-default btn-outline-danger"> <i class="fas fa-times"></i><span> Delete</span></button></td>'+
 		        '</tr>';
 		$('#tbl1 tbody').append(str);
 	});

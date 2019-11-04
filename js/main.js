@@ -58,8 +58,8 @@ $(document).ready(function(){
 		var hh=100-20;
 		var cableArea=0,tray150=150*hh,tray300=300*hh,tray600=600*hh;
 	    $('#tbl1 tbody tr').each(function(){
-	    	var od=$(this).find('input:eq(2)').val();
-	    	var qty=$(this).find('input:eq(3)').val();
+	    	var od=$(this).find('input:eq(0)').val();
+	    	var qty=$(this).find('input:eq(1)').val();
 	    	cableArea=cableArea+(Math.PI*Math.pow(od/2,2)*qty);
 	    	//console.log(od);
 	  	});

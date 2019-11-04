@@ -29,7 +29,7 @@ $(document).ready(function(){
 				break;
 			case "ITVV":
 				getCableSpec(res.ITVV);
-				breal;
+				break;
 			case "CVVS":
 				getCableSpec(res.CVVS);
 				break;
